@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #F9E9EC; /* Color secundario */
+}
+
+header {
+    background: #4153AF; /* Color primario */
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para el encabezado */
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold; /* Acentúa los enlaces */
+}
+
+.banner {
+    background: url('ruta-a-la-imagen.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+    width: 100%;
+}
+
+.banner h2 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.banner button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background: #FAC748; /* Color secundario */
+    color: #fff;
+    border: none;
+    border-radius: 5px; /* Añadido para que el botón tenga bordes redondeados */
+    cursor: pointer;
+}
+
+.section {
+    padding: 20px;
+    width: 100%;
+}
+
+.section h2 {
+    margin-top: 0;
+}
+
+.products-grid, .offers-grid {
+    display: flex;
+    gap: 20px;
+}
+
+.product, .offer {
+    border: 1px solid #ddd;
+    padding: 10px;
+    flex: 1;
+    background-color: #F9E9EC; /* Color secundario */
+    border-radius: 8px; /* Bordes redondeados para productos/ofertas */
+}
+
+.testimonials, .blog {
+    margin-top: 20px;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.container h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 1.2em;
+    color: #fff;
+    background: #4153AF; /* Color primario */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #2f3a8a; /* Un tono más oscuro del color primario para el hover */
+}
+
+.btn-secondary {
+    background: #FAC748; /* Color secundario */
+}
+
+.btn-secondary:hover {
+    background: #d4a636; /* Un tono más oscuro del color secundario para el hover */
+}
+
+p {
+    margin-top: 20px;
+    color: #666;
+}
+
+footer {
+    background: #4153AF; /* Color primario */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    position: relative; /* Cambié absolute a relative para asegurar que el footer esté dentro del flujo del documento */
+    bottom: 0;
+}
+
+footer a {
+    color: #AFC9BC; /* Color secundario */
+    text-decoration: none;
+}
+
+footer small {
+    color: #666;
+    font-size: 0.8em;
+}
